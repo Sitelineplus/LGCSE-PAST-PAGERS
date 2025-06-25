@@ -1,0 +1,44 @@
+css
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+header {
+  background-color: #004080;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+.subjects {
+  list-style: none;
+  padding: 0;
+}
+
+.subjects li {
+  background-color: white;
+  margin: 8px 0;
+  padding: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.subjects li:hover {
+  background-color: #dce6f2;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #eee;
+  color: #666;
+  font-size: 14px;
+}
